@@ -1,0 +1,227 @@
+html{
+    height: 100%%;
+}
+
+body {
+  font-family: "Open Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  background-color: #ebebeb; 
+    margin: auto;
+}
+
+
+.full{
+    display: block;
+    position: relative;
+        width: 98%!important;
+
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover{
+    text-decoration:none;
+    color: #fff;
+}
+
+/* NAV STYLING */
+
+.navbar-inverse{
+    height: 10%!important;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+        color: #001b62 !important;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #013976;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+background-color: #406cbb;    
+color: #fff !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+    
+    background-color: #013976!important;
+}
+
+.navbar-inverse#grad {
+    background-color: cornflowerblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#5d88d0, cornflowerblue, #5d88d0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5d88d0, cornflowerblue, #5d88d0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5d88d0, cornflowerblue, #5d88d0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5d88d0, cornflowerblue, #5d88d0,); /* Standard syntax */
+}
+
+/* END OF NAV STYLING */
+
+
+.header{
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+    background-image: url(/images/hero-lg.jpg);
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-position: center;
+}
+
+hr{
+    border-top: #000;
+}
+
+.heroTitle {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    color: #000;
+    font-weight: 300;
+    font-size: 2.2em!important;
+    margin-bottom: 15px;
+}
+
+.userTitle {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    color: #0f0f0f;
+    font-weight: 300;
+    font-size: 1.6em!important;
+    margin-top: 15px;
+}
+
+.logo {
+    width: 40px;
+    position: absolute;
+    top: 0.9%;
+}
+
+
+
+.choices{
+    margin-top: 5px
+}
+
+p, span, a, ul, li, button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit; }
+
+strong {
+  font-weight: 600; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5em;
+  font-weight: 300; }
+
+strong {
+  font-weight: 400; }
+
+.panel-title{
+    text-align: center;
+}
+.tile {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: cornflowerblue!important;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center; 
+  border-radius: 0px;
+  color: #fff;
+}
+
+.tile:hover {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #094486!important;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center; 
+  border-radius: 0px;
+  color: #fff;
+}
+
+.tile .title {
+  margin-top: 0px; }
+
+
+
+
+
+.icon {
+  width: 98%;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #d2d2d2!important;
+  background: #fff;
+  margin-bottom: 30px;
+  text-align: center; 
+  border-radius: 0px;
+  color: #fff;
+}
+
+.icon:hover {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #094486!important;
+  background: #fff;
+  margin-bottom: 30px;
+  text-align: center; 
+  border-radius: 0px;
+  color: #fff;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    display: block;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+    padding: 10px 0px;
+  background-color: #013976;
+  text-align: center;
+}
+
+.fa-twitter, .fa-facebook, .fa-linkedin {
+    color: #fff;
+}
+
+
+.fa {
+    opacity: 0.5;
+    transition: 1s;
+    -webkit-transition: 1s;
+    width: 10%;
+    font-size: 1.5em;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+        font-size: 1.7em;
+    
+}
+
+
